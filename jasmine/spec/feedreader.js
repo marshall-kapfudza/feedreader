@@ -35,7 +35,7 @@ $(function() {
             /* Here I'm using a forEach() method to ensure each feed has a URL defined */
             allFeeds.forEach(function(feed) {
                 expect(feed.url).toBeDefined();
-                expect(feed.url).not.toBe(0);
+                expect(feed.url.length).not.toBe(0);
             });
         });
 
@@ -48,7 +48,7 @@ $(function() {
             /* Here I'm using a forEach() method to ensure each feed has a URL defined */
             allFeeds.forEach(function(feed) {
                 expect(feed.name).toBeDefined();
-                expect(feed.name).not.toBe(0);
+                expect(feed.name.length).not.toBe(0);
             });
         });
     });
