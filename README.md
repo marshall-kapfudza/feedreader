@@ -13,4 +13,4 @@ Tests were added in `jasmine/spec/feedreader.js` to test for functionality of th
 
 ## How to Run
 
-Download or clone the repository and open it in your browser locally.  All needed Jasmine libraries are included, and you will see a section below the page showing the test results.
+Download or clone the repository and open it in your browser locally.  All needed Jasmine libraries are included and you will see a section below the page showing the test results.
